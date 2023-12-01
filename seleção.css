@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(65, 63, 63);
+}
+section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+div {
+    width: 150px;
+    height: 150px;
+    overflow: hidden; /* Garante que as imagens se ajustem dentro dos divs */
+    border-radius: 5px;
+    box-shadow: black 1px 1px 6px;
+    margin: 0 80px;
+}
+div#perfil1:hover{
+    opacity:70%;
+}
+div#perfil2:hover{
+    opacity:70%;
+}
+div#perfil3:hover{
+    opacity:70%;
+}
+div#perfil4:hover{
+    opacity:70%;
+}
+img{width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover; /* Mantém a proporção da imagem */
+
+}
+h1{
+    font-family: 'Nova Square', sans-serif;
+    margin-top: 70px;
+    margin-left: 500px;
+    color: rgb(212, 212, 212);
+    text-shadow:black 1px 1px 3px;
+}
